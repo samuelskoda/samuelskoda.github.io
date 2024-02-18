@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://samuelskoda.github.io/sitemap.xml
