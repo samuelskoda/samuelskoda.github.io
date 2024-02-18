@@ -16,7 +16,7 @@ div,
 li,
 span,
 strong {
-  color: var(--global-text-color);
+  color: var(--global-text-color);  
 }
 
 hr {
@@ -39,14 +39,15 @@ table.table a {
   color: var(--global-theme-color);
 
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-hover-color);
+    text-decoration: none;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
 }
+
 
 .table-dark {
   background-color: transparent;
