@@ -19,6 +19,7 @@ strong {
   color: var(--global-text-color);  
 }
 
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -246,35 +247,21 @@ ul.task-list input[type="checkbox"] {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  margin-bottom: -1.75rem;
 }
 
-.navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
-
-  a:not(.active) {
-    color: var(--global-text-color);
-  }
-
-  a:hover {
-    color: var(--global-hover-color);
-  }
-
-  .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
-  }
+.navbar-toggler {
+    float:none;
+    margin:0 auto;
+    text-align: center;
 }
 
-.dropdown-item {
-  color: var(--global-text-color);
-
-  &:hover {
-    color: var(--global-hover-color);
-    background-color: var(--global-bg-color);
-  }
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    text-align: center;
 }
 
 .navbar.navbar-light {
@@ -289,21 +276,19 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
-
+    color: var(--global-text-color-light);
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-theme-color);
     }
   }
 
-  .navbar-nav .nav-item.active > .nav-link {
-    background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
+  .navbar-nav .nav-item.active>.nav-link {
+      background-color: inherit;
+      font-weight: bolder;
+      color: var(--global-theme-color);
+      &:hover {
+        color: var(--global-hover-color);
+      }
   }
 
   .navbar-brand.social {
@@ -326,12 +311,13 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+
 .navbar-toggler {
   .icon-bar {
     display: block;
+    background-color: var(--global-text-color-light);
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -356,24 +342,11 @@ ul.task-list input[type="checkbox"] {
   .top-bar {
     transform: rotate(0);
   }
-
-  .middle-bar {
-    opacity: 1;
-  }
-
+//  .middle-bar {
+//    opacity: 1;
+//  }
   .bottom-bar {
     transform: rotate(0);
-  }
-}
-
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: var(--global-text-color);
-
-  &:hover {
-    color: var(--global-hover-color);
   }
 }
 
