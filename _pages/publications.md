@@ -26,6 +26,7 @@ nav_order: 2
 </div>
 
 #### Journal articles
+
 <div class="publications">
 
 {% bibliography  --group_by none --query @*[published=yes]* %}

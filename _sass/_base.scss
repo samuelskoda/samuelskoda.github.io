@@ -16,9 +16,8 @@ div,
 li,
 span,
 strong {
-  color: var(--global-text-color);  
+  color: var(--global-text-color);
 }
-
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -48,7 +47,6 @@ table.table a {
     width: 100%;
   }
 }
-
 
 .table-dark {
   background-color: transparent;
@@ -248,8 +246,8 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
-  padding-left:60px;
-  padding-right:60px;
+  padding-left: 60px;
+  padding-right: 60px;
   box-shadow: none;
   background-color: var(--global-bg-color);
   opacity: 0.95;
@@ -257,16 +255,16 @@ ul.task-list input[type="checkbox"] {
 }
 
 .navbar-toggler {
-    float:none;
-    margin:0 auto;
-    text-align: center;
+  float: none;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .navbar-nav {
-    float:none;
-    margin:0 auto;
-    text-align: center;
-    text-transform: uppercase;  
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .navbar.navbar-light {
@@ -287,13 +285,13 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
 
   .navbar-brand.social {
@@ -316,9 +314,8 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-
 .navbar-toggler {
-  padding-top:1rem;
+  padding-top: 1rem;
   .icon-bar {
     display: block;
     background-color: var(--global-text-color-light);
@@ -348,9 +345,9 @@ ul.task-list input[type="checkbox"] {
   .top-bar {
     transform: rotate(0);
   }
-//  .middle-bar {
-//    opacity: 1;
-//  }
+  //  .middle-bar {
+  //    opacity: 1;
+  //  }
   .bottom-bar {
     transform: rotate(0);
   }
@@ -667,7 +664,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 2rem ;
+    margin-bottom: 2rem;
 
     li {
       margin-bottom: 1rem;
