@@ -60,6 +60,7 @@ img {
   max-width: 85vw;
   padding-left: 1em;
   padding-right: 1em;
+  padding-bottom: 0.8em;
 }
 
 blockquote {
@@ -280,6 +281,8 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color-light);
+    padding-left: 18px;
+    padding-right: 18px;
     &:hover {
       color: var(--global-theme-color);
     }
@@ -287,7 +290,6 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
     color: var(--global-theme-color);
     &:hover {
       color: var(--global-hover-color);
@@ -663,7 +665,7 @@ footer.sticky-bottom {
   ol.bibliography {
     list-style: none;
     padding: 0;
-    margin-top: 0;
+    margin-top: -1rem;
     margin-bottom: 2rem;
 
     li {

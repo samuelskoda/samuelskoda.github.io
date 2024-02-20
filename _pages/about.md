@@ -24,6 +24,7 @@ N-0851 Oslo
 
 <a href="mailto:samuel.skoda@econ.uio.no"> samuel.skoda@econ.uio.no </a> \\
 +41 78 720 37 19
+<br/><br/>
 
 #### Research fields
 
