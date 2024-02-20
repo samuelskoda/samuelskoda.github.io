@@ -4,6 +4,8 @@
 
 body {
   padding-bottom: 70px;
+  padding-left: 1em;
+  padding-right: 1em;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -24,7 +26,7 @@ body.fixed-top-nav {
 
 body.sticky-bottom-footer {
   // Remove padding below footer.
-  padding-bottom: 0;
+   padding-bottom: 3rem;
 }
 
 .container {

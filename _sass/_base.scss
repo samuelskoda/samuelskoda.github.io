@@ -59,7 +59,9 @@ table.table a {
 
 figure,
 img {
-  max-width: 90vw;
+  max-width: 85vw;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 blockquote {
@@ -219,7 +221,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 56%;
 
     .address {
       p {
@@ -246,6 +248,8 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
+  padding-left:60px;
+  padding-right:60px;
   box-shadow: none;
   background-color: var(--global-bg-color);
   opacity: 0.95;
@@ -262,6 +266,7 @@ ul.task-list input[type="checkbox"] {
     float:none;
     margin:0 auto;
     text-align: center;
+    text-transform: uppercase;  
 }
 
 .navbar.navbar-light {
@@ -313,6 +318,7 @@ ul.task-list input[type="checkbox"] {
 
 
 .navbar-toggler {
+  padding-top:1rem;
   .icon-bar {
     display: block;
     background-color: var(--global-text-color-light);
@@ -430,7 +436,6 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
@@ -662,6 +667,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    margin-bottom: 2rem ;
 
     li {
       margin-bottom: 1rem;
