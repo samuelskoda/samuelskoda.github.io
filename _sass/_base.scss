@@ -247,6 +247,7 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
+  position: relative;
   padding-left: 60px;
   padding-right: 60px;
   box-shadow: none;
@@ -289,6 +290,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-nav .nav-item.active > .nav-link {
+    font-weight: bolder;
     background-color: inherit;
     color: var(--global-theme-color);
     &:hover {
