@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "/bin/zsh",
+      "runtimeArgs": [
+        "-c",
+        "export PATH=\"/opt/homebrew/opt/ruby@3.2/bin:$PATH\" LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8; bundle install --quiet && exec bundle exec jekyll serve --host 127.0.0.1 --port 4000"
+      ],
+      "port": 4000
+    }
+  ]
+}
