@@ -1,6 +1,5 @@
 **/*.min.css
 **/*.min.js
 assets/css/main.scss
-assets/js/distillpub/**
 assets/plotly/demo.html
 lighthouse_results/**
